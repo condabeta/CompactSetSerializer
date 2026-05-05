@@ -15,7 +15,7 @@ Each number is encoded in **base62** (0–9, A–Z, a–z).
 This produces 1–2 characters per number.
 
 Format:
-'S<base62>,<base62>,...'
+`S<base62>,<base62>,...`
 
 ---
 
@@ -26,7 +26,7 @@ A 300‑bit bitmap is created (1 bit per number).
 Bits are packed into bytes and encoded using Base64 (ASCII‑safe).
 
 Format:
-'B<base64>'
+`B<base64>`
 
 Bitmap size:
 - 300 bits → 38 bytes → 52 Base64 chars
